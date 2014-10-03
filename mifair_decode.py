@@ -1,5 +1,3 @@
-nuid="02c86146"
-
 import argparse
 
 parser = argparse.ArgumentParser(description='Process NUID[4] read from miFare card.')
@@ -24,5 +22,3 @@ try:
 	print "Your mifair code: {0}".format(int(string,16))
 except ValueError:
 	print "What you entered is not a valid miFare NUID"
-
-
